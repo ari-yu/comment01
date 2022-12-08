@@ -9,6 +9,6 @@
 <body>
   <h1>コメント機能ログアウト</h1>
   <p>ログアウトしました</p>
-  <p><a href="/comment">トップへ</a></p>
+  <p><a href="/comment01">トップへ</a></p>
 </body>
 </html>

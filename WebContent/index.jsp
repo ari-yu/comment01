@@ -8,7 +8,7 @@
 </head>
 <body>
   <h1>コメント機能へようこそ</h1>
-  <form action="/comment/Login" method="post">
+  <form action="/comment01/Login" method="post">
   ユーザー名：<input type="text" name="name"><br>
   パスワード：<input type="password" name="pass"><br>
   <input type="submit" value="ログイン">

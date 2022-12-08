@@ -51,7 +51,7 @@ public class Main extends HttpServlet {
 		HttpSession session = request.getSession();
 		User loginUser = (User) session.getAttribute("loginUser");
 		if(loginUser == null) {
-			response.sendRedirect("/comment/");
+			response.sendRedirect("/comment01/");
 		} else {
 			RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/main.jsp");
 			dispatcher.forward(request, response);

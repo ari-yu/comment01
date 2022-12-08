@@ -12,10 +12,10 @@
   <h1>コメント機能ログイン</h1>
   <% if(loginUser != null) { %>
   <p>ようこそ、<%= loginUser.getName() %>さん</p>
-  <a href="/comment/Main">コメント投稿・閲覧へ</a>
+  <a href="/comment01/Main">コメント投稿・閲覧へ</a>
   <% } else { %>
   <p>ログインに失敗しました</p>
-  <a href="/comment">TOPへ</a>
+  <a href="/comment01">TOPへ</a>
   <% } %>
 </body>
 </html>
